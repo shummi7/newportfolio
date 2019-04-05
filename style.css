@@ -846,11 +846,16 @@ p.active{
     border-radius:20px;
 
     background:white;
+    box-shadow:-7px 8px rgba(110, 108, 108, 0.171);
 
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     line-height: 22px;
     font-weight: 500;
+    transition:0.5s linear;
+}
+.project_tab:hover{
+    transform:scale(1.05);
 }
 
 .project_tab p:nth-child(1){
@@ -903,14 +908,16 @@ p.active{
 .desc img{
     position:absolute;
     top:0;
-    left:0;
+    left:0px;
     width:100%;
-    height:auto;
+    height:100%;
     z-index:0;
     opacity:0;
 }
 
-
+.desc img.show{
+    opacity:1;
+}
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait){
     #projectPage{
