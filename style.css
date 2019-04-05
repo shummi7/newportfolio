@@ -857,7 +857,7 @@ p.active{
 .project_tab:hover{
     transform:scale(1.05);
 }  
-
+  
 .project_tab p:nth-child(1){
     width:100%;
     height:46px;
