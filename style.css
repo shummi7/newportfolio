@@ -63,6 +63,21 @@ p.active{
     position:relative;
     top:20px;
 }
+.demo span{
+    width:60px;
+    height:20px;
+    border-radius:50px;
+ 
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    
+}
+.demo span:hover{
+    background:rgb(221, 73, 97);
+    color:white;
+}
 
 @media only screen and (min-device-width: 0px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait){
     #header{
@@ -579,7 +594,8 @@ p.active{
     justify-content: center;
     align-items:center;
     /* align-items: flex-end; */
-    overflow: hidden;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 #girl{
     width:450px;
@@ -591,6 +607,8 @@ p.active{
     left:50%;
     margin-top:-225px;
     margin-left:-225px;
+
+    overflow-y: hidden;
 }
 
 #box{
