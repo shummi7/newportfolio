@@ -36,19 +36,17 @@ skillsButton.addEventListener('click',function(){pageSelectionFunc("skillsPage",
 projectsButton.addEventListener('click',function(){pageSelectionFunc("projectPage","projects")}, false);
 contactButton.addEventListener('click',function(){pageSelectionFunc("contactPage","contact")}, false);
 
-
-
-demo[1].firstElementChild.addEventListener('click',function(e) {
-    window.location.href = 'https://shummi7.github.io/Background_Gradient/';
-}, false);
 demo[0].firstElementChild.addEventListener('click',function(e) {
     window.location.href = 'https://shummi7.github.io/testrobo/';
+}, false);
+demo[1].firstElementChild.addEventListener('click',function(e) {
+    window.location.href = 'https://shummi7.github.io/Todo_List/';
 }, false);
 demo[2].firstElementChild.addEventListener('click',function(e) {
     window.location.href = 'https://shummi7.github.io/Snake_Game/';
 }, false);
 demo[3].firstElementChild.addEventListener('click',function(e) {
-    window.location.href = 'https://shummi7.github.io/Todo_List/';
+    window.location.href = 'https://shummi7.github.io/Background_Gradient/';
 }, false);
 demo[4].firstElementChild.addEventListener('click',function(e) {
     window.location.href = 'https://smart-brain-face-rcgn.herokuapp.com/';
@@ -60,17 +58,18 @@ demo[5].firstElementChild.addEventListener('click',function(e) {
 // ----------------------------------------------------------------------------
 
 
-demo[1].lastElementChild.addEventListener('click',function(e) {
-    window.location.href = 'https://github.com/shummi7/Background_Gradient';
-}, false);
+
 demo[0].lastElementChild.addEventListener('click',function(e) {
     window.location.href = 'https://github.com/shummi7/testrobo';
+}, false);
+demo[1].lastElementChild.addEventListener('click',function(e) {
+    window.location.href = 'https://github.com/shummi7/Todo_List';
 }, false);
 demo[2].lastElementChild.addEventListener('click',function(e) {
     window.location.href = 'https://github.com/shummi7/Snake_Game';
 }, false);
 demo[3].lastElementChild.addEventListener('click',function(e) {
-    window.location.href = 'https://github.com/shummi7/Todo_List';
+    window.location.href = 'https://github.com/shummi7/Background_Gradient';
 }, false);
 demo[4].lastElementChild.addEventListener('click',function(e) {
     window.location.href = 'https://github.com/shummi7/smart-brain-api';
