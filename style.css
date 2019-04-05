@@ -896,6 +896,22 @@ p.active{
     align-items:center;
     cursor:pointer;
 }
+.desc{
+    position:relative;
+    opacity:1;
+}
+.desc img{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:auto;
+    z-index:0;
+    opacity:0;
+}
+
+
+
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait){
     #projectPage{
         height:calc(100% - 300px);
