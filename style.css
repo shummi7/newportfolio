@@ -852,7 +852,7 @@ p.active{
     font-size: 14px;
     line-height: 22px;
     font-weight: 500;
-    transition:0.5s linear;
+    transition:0.2s linear;
 }
 .project_tab:hover{
     transform:scale(1.05);
@@ -947,6 +947,17 @@ p.active{
         padding:0px 30px;
     }
 }
+.beta{
+    background:rgba(255, 68, 0, 0.767);
+    color:white;
+    font-size: 12px;    
+}
+
+.beta:hover{
+    background:rgba(255, 68, 0, 0.767);
+    cursor: default;
+}
+
 /* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 #contactPage{
     width:100%;
@@ -1141,8 +1152,3 @@ input[type='submit']{
     }
 }
 
-.beta{
-    background:rgba(255, 68, 0, 0.767);
-    color:white;
-    font-size: 12px;    
-}
